@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textCpf"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgEnd"
+        android:layout_width="345dp"
+        android:layout_height="243dp"
+        android:padding="20sp"
+        android:src="@drawable/finalize_seu_cadastro" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textCep"
+        style="@style/edit_text"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#BFFFFFFF"
+        android:hapticFeedbackEnabled="false"
+        android:hint="CEP"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:shadowColor="#EFE6E6"
+        android:textColor="#104D55"
+        android:textColorHint="#65000D0E"
+        android:textSize="20sp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textEndereco"
+        style="@style/edit_text"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#BFFFFFFF"
+        android:hapticFeedbackEnabled="false"
+        android:hint="Endereço"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:shadowColor="#EFE6E6"
+        android:textColor="#104D55"
+        android:textColorHint="#65000D0E"
+        android:textSize="20sp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textCidade"
+        style="@style/edit_text"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#BFFFFFFF"
+        android:hapticFeedbackEnabled="false"
+        android:hint="Cidade"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:shadowColor="#EFE6E6"
+        android:textColor="#104D55"
+        android:textColorHint="#65000D0E"
+        android:textSize="20sp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textBairro"
+        style="@style/edit_text"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#BFFFFFFF"
+        android:hapticFeedbackEnabled="false"
+        android:hint="Bairro"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:shadowColor="#EFE6E6"
+        android:textColor="#104D55"
+        android:textColorHint="#65000D0E"
+        android:textSize="20sp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textNumero"
+        style="@style/edit_text"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#BFFFFFFF"
+        android:hapticFeedbackEnabled="false"
+        android:hint="Numero"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:shadowColor="#EFE6E6"
+        android:textColor="#104D55"
+        android:textColorHint="#65000D0E"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonEndFinalizar"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#0B423C"
+        android:paddingStart="10dp"
+        android:text="FINALIZAR" />
+
+</LinearLayout>
